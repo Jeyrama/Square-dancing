@@ -15,3 +15,14 @@ numbers and the sum of the squares of those numbers is: 3025 - 385 = 2640.
 
 
 // Solution
+
+function differenceOfSquares(n){
+  let sqrSum = 1;
+  let sumSqrt = 1;
+  while(n > 1) {
+    sqrSum += n;
+    sumSqrt = sumSqrt + n**2;
+    n--;
+  }
+  return (sqrSum ** 2)- sumSqrt;
+}
