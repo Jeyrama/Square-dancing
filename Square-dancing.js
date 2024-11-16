@@ -12,3 +12,6 @@ For example, when n = 10:
 Hence the difference between square of the sum of the first ten natural 
 numbers and the sum of the squares of those numbers is: 3025 - 385 = 2640.
 */
+
+
+// Solution
