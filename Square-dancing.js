@@ -26,3 +26,5 @@ function differenceOfSquares(n){
   }
   return (sqrSum ** 2)- sumSqrt;
 }
+
+// or
